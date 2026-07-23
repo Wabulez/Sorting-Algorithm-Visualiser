@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualiser</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="heading-text">Sorting Algorithm Visualiser</h1>
+
+        <div class="array-inputs">
+            <p>Size of the array:</p>
+            <input id="a_size" type="range" min=20 max=150 step=1 value=80>
+            <p>Speed of the algorithm:</p>
+            <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
+        </div>
+
+        <hr>
+
+        <button id="a_generate">Generate New Array!</button>
+
+        <div class="algos">
+            <button>Bubble Sort</button>
+            <button>Heap Sort</button>
+            <button>Insertion Sort</button>
+            <button>Merge Sort</button>
+            <button>Quick Sort</button>
+            <button>Selection Sort</button>
+        </div>
+
+        <hr>
+
+        <div class="additional-info">
+            <div class="side-1">
+                <p><b>Efficient Algorithms:</b> <i>Merge Sort, Heap Sort, Quick Sort</i></p>
+                <p><b>Simple but Slow:</b> <i>Bubble, Insertion, Selection</i></p>
+            </div>
+
+            <div class="side-2">
+                <p><b>Best Space Usage:</b> <i>Bubble, Insertion, Selection, Heap</i></p>
+                <p><b>Stable Sorting Algorithm:</b> <i>Bubble, Insertion, Merge</i></p>
+            </div>
+        </div>
+
+        <div class="array-container" id="array-container">
+
+        </div>
+
+        <div class="algo-info">
+            <div class="time-comp">
+
+                <h3 class="sub-title"><u>Time Complexity</u></h3>
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Best Case:</p>
+                    <p class="Notation_Type" id="Time_Best"></p>
+                </div>
+
+                <p id="TB_Explanation"></p>
+                
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Average Case:</p>
+                    <p class="Notation_Type" id="Time_Average"></p>
+                </div>
+
+                <p id="TA_Explanation"></p>
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst Case:</p>
+                    <p class="Notation_Type" id="Time_Worst"></p>
+                </div>
+
+                <p id="TW_Explanation"></p>
+
+            </div>
+            <hr>
+            <div class="space-comp" id="space-comp">
+
+                <h3 class="sub-title"><u>Space Complexity</u></h3>
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Overall Space Complexity:</p>
+                    <p class="Notation_Type" id="Space_Worst"></p>
+                </div>
+
+                <p id="SW_Explanation"></p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <script type="module" src="index.js"></script> -->
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/visualisations.js"></script>
+
+    <script src="./scripts/bubbleSort.js"></script>
+    <script src="./scripts/heapSort.js"></script>
+    <script src="./scripts/insertionSort.js"></script>
+    <script src="./scripts/mergeSort.js"></script>
+    <script src="./scripts/quickSort.js"></script>
+    <script src="./scripts/selectionSort.js"></script>
+
+</body>
+</html>
+

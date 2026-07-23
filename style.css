@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #9b59b6, #e75353);
+    margin: 0;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(to right, rgba(226,226,226,0.5), rgba(201, 214, 255, 0.5)), url(/Images/abstract\ blue\ and\ purple\ bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.heading-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.additional-info {
+    display: flex;
+    text-align: left;
+}
+
+.side-1 {
+    width: 50%;
+    padding: 10px;
+}
+
+.side-2 {
+    width: 50%;
+    padding: 10px;
+}
+
+.array-inputs {
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+}
+
+.array-container {
+    display: flex;
+
+    /* Change the orientation of the bars */
+    justify-content: center;
+    align-items: flex-end; 
+
+    height: 60vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+.array-bar {
+    background: white;
+    margin: 0 2px;
+    flex: 1;
+    border-radius: 5px;
+    transition: height 0.3s ease;
+}
+
+button {
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: #f3f3f3;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f3f3f3;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        background-color: transparent;
+        cursor: default;
+    }
+}
+.butt_selected {
+    background-color: white;
+    color:green;
+
+    &:hover {
+        background-color: white;
+        cursor: default;
+    }
+}
+
+#a_generate {
+    width: 50%;
+
+    &:active{
+        color: green;
+    }
+}
+
+.algo-info {
+    display: flex;
+}
+
+.time-comp {
+    width: 50%;
+    padding: 10px;
+}
+
+.space-comp {
+    width: 50%;
+    padding: 10px;
+}
+
+.sub-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Pair_Definitions {
+    margin-top: 10px;
+
+    p {
+        display: inline;
+    }
+
+    p.Sub_Heading {
+        font-weight: bold;
+        font-size:medium;
+        text-transform: none;
+    }
+
+    .Notation_Type {
+        font-style: italic;
+    }
+
+}
+
+#TW_Explanation{
+    text-align: left;
+}
+
+#TA_Explanation{
+    text-align: left;
+}
+
+#TB_Explanation{
+    text-align: left;
+}
+
+#SW_Explanation {
+    text-align: left;
+}
+
+
