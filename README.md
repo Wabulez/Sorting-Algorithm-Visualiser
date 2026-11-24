@@ -75,7 +75,3 @@ sorting-visualiser/
 - **HTML5:** Semantic structure and range/button UI controls.
 - **CSS3:** Responsive Flexbox layout, custom animations, and Google Fonts (`Poppins`).
 - **JavaScript (ES6+):** DOM manipulation, asynchronous animation timing, and sorting algorithm implementations.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
