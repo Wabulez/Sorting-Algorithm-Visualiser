@@ -57,8 +57,8 @@ sorting-visualiser/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/sorting-visualiser.git
-   cd sorting-visualiser
+   git clone https://github.com/Wabulez/Sorting-Algorithm-Visualiser.git
+   cd Sorting-Algorithm-Visualiser
    ```
 
 2. **Run the application:**
